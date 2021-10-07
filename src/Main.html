@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_1_Market</title>
+    <link href="Main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "Register">
+        <button id = "Register_Item">상품 등록하기</button>
+        <div id="modal">
+            <div>
+                <label for="Choice_image">상품 이미지 : </label>
+                <input type="file" id = "Choice_image"><br>
+                <label for="Item_Name">상품 이름 : </label>
+                <input type="text" id = "Item_Name"><br>
+                <label for="Item_Price">상품 가격 : </label>
+                <input type="text" id="Item_Price" size="10"> 100원 이상이어야 함<br>
+                <label for="Item_Num">상품 개수 : </label>
+                <input type="text" id="Item_Num" size="5"> 최대 100개 이하까지 등록 가능<br>
+                <button id = "Save">저장</button>
+                <button id = "Cancel">취소</button>
+            </div>
+        </div>
+    </div>
+    <div id = "Store">
+        <div id = "Items">
+        </div>
+        <div id = "Save_Items">
+            <button id = "Save_btn">장바구니 담기</button>
+        </div>
+    </div>
+    <div id = "My_Page">
+        <div id = "Check">
+            <label for="Checkbox"></label>
+            <input type="checkbox" id = "Checkbox">전체선택
+            <button id = "Check_btn">선택 삭제</button>
+        </div>
+        <div id = "basket">
+            <table>
+                <thead id = "head">
+                    <tr>
+                        <td>선택</td>
+                        <td>상품 이미지</td>
+                        <td>상품 이름</td>
+                        <td>상품 개별 가격(원)</td>
+                        <td>상품 개수</td>
+                        <td>상품 구매 가격(원)</td>
+                    </tr>
+                </thead>
+                <tbody id = "body">
+
+                </tbody>
+                <tfoot id = "foot">
+                    <tr>
+                        <td colspan="5">총 가격</td>
+                        <td id = "sum">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+<script src="Main.js"></script>
+</body>
+</html>

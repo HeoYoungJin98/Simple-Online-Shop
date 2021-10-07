@@ -1,0 +1,34 @@
+#Register{
+    height: 200px;
+}
+
+#Store{
+    height: 150px;
+}
+
+#Items{
+    height: 100px;
+}
+
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr,td{
+    font-family: 'Jua', sans-serif;
+    border: solid 1px black;
+}
+#modal{
+    display: none;
+    width: 400px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 5px;
+    border-style: outset;
+    background-color: skyblue;
+}
+
+#btn{
+    margin: 10px;
+}
