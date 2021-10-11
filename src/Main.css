@@ -1,15 +1,3 @@
-#Register{
-    height: 200px;
-}
-
-#Store{
-    height: 150px;
-}
-
-#Items{
-    height: 100px;
-}
-
 table {
     border: solid 1px black;
     border-collapse: collapse;
@@ -31,4 +19,22 @@ tr,td{
 
 #btn{
     margin: 10px;
+}
+
+.Item_Table{
+  border: solid 1px black;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+  border-collapse: separate;
+  margin: 10px;
+  display: inline-block;
+}
+
+.Item_Table td{
+  width: 110px;
+  height: 30px;
+}
+
+input{
+  text-align: center;
 }
