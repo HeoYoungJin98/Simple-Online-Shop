@@ -25,14 +25,16 @@ tr,td{
   border: solid 1px black;
   text-align: center;
   font-family: 'Jua', sans-serif;
-  border-collapse: separate;
+  border-collapse: collapse;
   margin: 10px;
   display: inline-block;
 }
 
-.Item_Table td{
-  width: 110px;
+.Item_Table td,tr{
+  border: solid 1px black;
+  border-collapse: separate;
   height: 30px;
+  width: 110px;
 }
 
 input{
